@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4001AF351CDB83F6007A34D5 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001AF341CDB83F6007A34D5 /* CCTableViewController.m */; };
 		407300221CDB6E7B00F8AF37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 407300211CDB6E7B00F8AF37 /* main.m */; };
 		407300251CDB6E7B00F8AF37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 407300241CDB6E7B00F8AF37 /* AppDelegate.m */; };
-		407300281CDB6E7B00F8AF37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407300271CDB6E7B00F8AF37 /* ViewController.m */; };
 		4073002B1CDB6E7B00F8AF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 407300291CDB6E7B00F8AF37 /* Main.storyboard */; };
 		4073002D1CDB6E7B00F8AF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4073002C1CDB6E7B00F8AF37 /* Assets.xcassets */; };
 		407300301CDB6E7B00F8AF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4073002E1CDB6E7B00F8AF37 /* LaunchScreen.storyboard */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4001AF331CDB83F6007A34D5 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		4001AF341CDB83F6007A34D5 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 		4073001D1CDB6E7B00F8AF37 /* UITabelViewController Challange Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabelViewController Challange Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		407300211CDB6E7B00F8AF37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		407300231CDB6E7B00F8AF37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		407300241CDB6E7B00F8AF37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		407300261CDB6E7B00F8AF37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		407300271CDB6E7B00F8AF37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4073002A1CDB6E7B00F8AF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4073002C1CDB6E7B00F8AF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4073002F1CDB6E7B00F8AF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 			children = (
 				407300231CDB6E7B00F8AF37 /* AppDelegate.h */,
 				407300241CDB6E7B00F8AF37 /* AppDelegate.m */,
-				407300261CDB6E7B00F8AF37 /* ViewController.h */,
-				407300271CDB6E7B00F8AF37 /* ViewController.m */,
 				407300291CDB6E7B00F8AF37 /* Main.storyboard */,
+				4001AF331CDB83F6007A34D5 /* CCTableViewController.h */,
+				4001AF341CDB83F6007A34D5 /* CCTableViewController.m */,
 				4073002C1CDB6E7B00F8AF37 /* Assets.xcassets */,
 				4073002E1CDB6E7B00F8AF37 /* LaunchScreen.storyboard */,
 				407300311CDB6E7B00F8AF37 /* Info.plist */,
@@ -270,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407300281CDB6E7B00F8AF37 /* ViewController.m in Sources */,
 				407300251CDB6E7B00F8AF37 /* AppDelegate.m in Sources */,
 				407300221CDB6E7B00F8AF37 /* main.m in Sources */,
+				4001AF351CDB83F6007A34D5 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 				4073004C1CDB6E7C00F8AF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4073004D1CDB6E7C00F8AF37 /* Build configuration list for PBXNativeTarget "UITabelViewController Challange SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				4073004F1CDB6E7C00F8AF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		407300501CDB6E7C00F8AF37 /* Build configuration list for PBXNativeTarget "UITabelViewController Challange SolutionUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				407300521CDB6E7C00F8AF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
